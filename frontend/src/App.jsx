@@ -73,8 +73,6 @@ export default function App() {
             <InputForm
               rawInput={rawInput}
               setRawInput={setRawInput}
-              apiUrl={apiUrl}
-              setApiUrl={setApiUrl}
               handleSubmit={handleSubmit}
               loading={loading}
               loadPreset={loadPreset}

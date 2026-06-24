@@ -3,8 +3,6 @@ import React from 'react';
 export default function InputForm({
   rawInput,
   setRawInput,
-  apiUrl,
-  setApiUrl,
   handleSubmit,
   loading,
   loadPreset
@@ -40,16 +38,6 @@ export default function InputForm({
         >
           Only Cycle
         </button>
-      </div>
-
-      <div>
-        <label className="block text-xs font-bold text-gray-500 mb-1">API Endpoint URL:</label>
-        <input
-          type="text"
-          className="w-full p-2 border border-gray-300 rounded text-xs font-mono focus:outline-none"
-          value={apiUrl}
-          onChange={(e) => setApiUrl(e.target.value)}
-        />
       </div>
 
       <button
